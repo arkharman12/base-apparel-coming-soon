@@ -14,24 +14,31 @@
 
     <div class="text">
       <img class="logo" src="./images/logo.svg" alt="Logo">
+      <img class="mobile-only" src="./images/hero-mobile.jpg" alt="Model image">
       <h1>We're <span>coming soon</span></h1>
       <p>Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
         
       <div class="form">
-        <input type="email" placeholder="Email Address">
-        <button type="submit">
+        <input id="email" type="email" placeholder="Email Address">
+        <img id="error-icon" src="./images/icon-error.svg" alt="Error icon">
+        <button id="submit-btn" type="submit">
           <img class="arrow" src="./images/icon-arrow.svg" alt="Icon arrow">
         </button>
       </div>
 
+      <span id="error-message"></span>
+      <span id="success-message"></span>
+      <span id="margin"></span>
+
     </div>
 
     <div class="image">
-      <img src="./images/hero-desktop.jpg" alt="Model image">
+      <img class="desktop-only" src="./images/hero-desktop.jpg" alt="Model image">
     </div>
 
   </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
