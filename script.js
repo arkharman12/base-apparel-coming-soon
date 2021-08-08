@@ -4,8 +4,6 @@ const errorMsg = document.querySelector("#error-message");
 const successMsg = document.querySelector("#success-message");
 const errorIcon = document.querySelector("#error-icon");
 
-console.log(emailInput)
-
 submitBtn.addEventListener("click", function() {
     // Get the value of the input field with id="numb"
     let inputValue = emailInput.value;
